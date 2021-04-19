@@ -1,4 +1,7 @@
 package Classes_Metodos;
+
+
+
 //import java.util.Scanner;
 public class DataTeste {
 
@@ -6,9 +9,8 @@ public class DataTeste {
 		// TODO Auto-generated method stub
 		
 		Data dat1 = new Data();
+		
 		Data dat2 = new Data(9, 1, 2021);
-		
-		
 		
 		
 		String form = dat1.dataFormatada();
@@ -21,6 +23,8 @@ public class DataTeste {
 		String a = "";
 		
 		System.out.print(a.concat("!!!"));
+		
+
 		
 
 	}
